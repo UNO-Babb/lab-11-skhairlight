@@ -3,7 +3,13 @@
 #Date: Nov.30
 #Assignment: Lab 11
 
-import simy
+# Commit message:
+# Add full SimPy grocery store simulation and summary
+# - Implemented shopper, checker, and arrival processes
+# - Added extra statistics including avg items, max wait, and idle time
+# - Created summary document explaining what was learned
+
+import simpy
 import random
 
 eventLog = []
